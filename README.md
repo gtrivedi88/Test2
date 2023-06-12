@@ -1,1 +1,5 @@
-	If the package manager lock file is in the root directory of your project, enter gomod. Or else if the package manager lock file is in a subdirectory of your project, enter the path to the package manager lock file in the JSON format. For example, {"type": "{package-manager}", "path": "path-to-the-directory-which-contains-the-lockfile}"}
+We are using the quickstarts repo to document and publish the side-panel help for RHTAP.  
+We wanted to have an attribute for the product name (RHTAP) in our side-panel help, to ensure that we remain up-to-date with the changes in the Product Name. I tried something: https://github.com/gtrivedi88/quickstarts/pull/1
+But, I'm not sure it would work. It seems the content is populated during database seeding when the pod is uploaded. So when the env variable changes, we would have to spin up new pods. 
+
+Need your help and inputs to solve this situation.
