@@ -1,1 +1,5 @@
-NOTE: `pip` automatically installs the build dependencies when needed for explicit installation. However, it's important to note that in certain scenarios, modifications to the build process may be required to ensure that specific build-time dependencies are built beforehand, even before they are actually needed. In these cases, the `requirements.txt` file can be used to specify the build dependencies that needed to be installed. The purpose of the *requirement-build.txt* file is to enable Cachi2 to fetch the build dependencies and provide them to `pip` for offline installation in a network-isolated environment. 
+NOTE: The command mentioned assumes that you have defined project dependencies in *pyproject.toml*. However, if you have defined the project dependencies in either the *setup.py* or *setup.cfg*, ensure to update the command accordingly.
+
+I have often seen pip-compile used with a requirements.in file. Is this not a suggested possible path?
+
+
