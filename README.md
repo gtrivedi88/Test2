@@ -1,2 +1,7 @@
-If the package manager lock file is located in the root directory of your project, enter `pip`. Otherwise, if the package manager lock file is in a subdirectory, provide the path to the lock file in the JSON object format. For example,
-{"type": "pip", "path": "subpath/to/the/other/module"}. Additionally, if you have multiple `gomod` files, you can provide the path to the lock file in the JSON array format. For example, [{"path": ".", "type": "gomod"}, {"path": "subpath/to/other/module", "type": "gomod"}]. Here, `.` indicates that the the package manager is located at the root of the repository.
+[source,yaml]
+----
+param:
+    -  name: prefetch-input
+       value: gomod <1>
+----
+<1> Specifies lock file, relative to the package path. If the package manager lock file is located at the root directory of your repository, enter `gomod`. Otherwise, provide the path to the lock file in the JSON object format. For example, `{"type": "gomod", "path": "subpath/to/the/other/module"}`
