@@ -1,5 +1,2 @@
-NOTE: The command mentioned assumes that you have defined project dependencies in *pyproject.toml*. However, if you have defined the project dependencies in either the *setup.py* or *setup.cfg*, ensure to update the command accordingly.
-
-I have often seen pip-compile used with a requirements.in file. Is this not a suggested possible path?
-
+Review the root of your repository to ensure it has a metadata file (for example, *pyproject.toml* file, *setup.py*, or *setup.cfg* ). If a metadata file does not exist, create one (for example, *pyproject.toml*) as Cachi2 looks for the name and version of your project in the metadata files.
 
