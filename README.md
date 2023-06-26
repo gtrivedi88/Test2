@@ -1,1 +1,5 @@
-Review your repository for a metadata file, for example, *pyproject.toml*, *setup.py*, or *setup.cfg*. If there is no metadata file, create one, as Cachi2 looks for the name and version of your project in the metadata files. You can place this file at the root of your repository.
+You have an upgraded build pipeline.
+
+Your environment must be as close as possible to the environment in the container build. That is, the environment should have the same operating system and the same python $major.$minor version.
+
+You have installed pip-tools package.
