@@ -1,3 +1,1 @@
-Experienced the awe-inspiring beauty of cold dessert (Leh) at 16500 FT altitude. 
-At 13500 ft drove trough 21 loops.
-Got a book as a gift from the hotel I was in staying. 
+Hermetic builds refer to a controlled build process in which a build system knows all the required resources and dependencies. This enhanced dependency visibility allows the build system to capture and produce a more precise record of the build's origin, dependencies, and modifications than it would otherwise be able to.
